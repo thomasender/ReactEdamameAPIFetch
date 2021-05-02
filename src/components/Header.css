@@ -4,3 +4,9 @@
     font-style: oblique;
     
 }
+
+.logo {
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: -200px;
+}
