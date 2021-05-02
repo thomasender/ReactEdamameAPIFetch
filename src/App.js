@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Recipe from './components/Recipe';
+import Header from './components/Header';
 
 const App = () => {
 
@@ -37,6 +38,10 @@ const App = () => {
 
   return (
     <div className="App">
+      <Header 
+        title="Edamame API Search" 
+        description="Find recipes for your favorite meals!"
+      />
       <form 
       onSubmit={getSearch}
       className="search-form"
