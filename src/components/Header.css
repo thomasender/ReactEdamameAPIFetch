@@ -1,15 +1,6 @@
 .Header {
-    width: 30%;
-    height: 25%;
-    background-color: #fff;
-    opacity: 60%;
-    border-radius: 50% 50% 50% 50%;
     display: flex;
     justify-content: center;
     font-style: oblique;
     margin-left: 33%;
-}
-
-.headerBG {
-
 }
